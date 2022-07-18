@@ -36,7 +36,6 @@ public class Main {
             if (i > startYear - oldYear) {
                 System.out.println(i);
             }
-
         }
     }
 }
