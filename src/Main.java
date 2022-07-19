@@ -5,6 +5,8 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
+        task5();
     }
 
     public static void task1() {
@@ -39,5 +41,40 @@ public class Main {
                 System.out.println(i);
             }
         }
+        System.out.println("------------------------------------------------------------");
     }
+
+    public static void task4() {
+        for (int i = 1; i <= 30; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println(i + " - ping pong");
+            } else if (i % 3 == 0) {
+                System.out.println(i + " - ping");
+            } else if (i % 5 == 0) {
+                System.out.println(i + " - pong");
+            } else {
+                System.out.println(i);
+            }
+        }
+        System.out.print("\n" + "------------------------------------------------------------" + "\n");
+
+    }
+
+    public static void task5() {
+        int a = 0;
+        int b = 1;
+        int sum = a + b;
+        int c = sum+sum;;
+        for (int i = 0; i < 10; i++) {
+
+
+                    c = c*2;
+                System.out.print(c + " ");
+
+
+        }
+
+
+    }
+
 }
