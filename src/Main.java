@@ -7,6 +7,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -70,5 +71,21 @@ public class Main {
         for (int i = 0; i < arr.length; ++i) {
             System.out.print(arr[i] + " ");
         }
+        System.out.println();
+    }
+
+    public static void task6() {
+        int num1 = 0;
+        int num2 = 1;
+        int sum;
+        System.out.print(num1 + " " + num2);
+        for (int i = 3; i <= 10; i++) {
+            sum = num1 + num2;
+            num1 = num2;
+            num2 = sum;
+            System.out.print(" " + sum);
+
+        }
     }
 }
+
